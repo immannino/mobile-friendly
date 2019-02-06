@@ -1,0 +1,20 @@
+.bg-gold {
+    grid-area: first;
+    background-color: gold;
+    font-size: 24px;
+}
+
+.bg-purple {
+    grid-area: second;
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "first second";
+    text-align: center;
+}

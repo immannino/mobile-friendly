@@ -1,0 +1,20 @@
+.bg-green {
+    grid-area: first;
+    background-color: springgreen;
+    font-size: 24px;
+}
+
+.bg-blue {
+    grid-area: second;
+    background-color: skyblue;
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: "first" "second";
+    text-align: center;
+}
